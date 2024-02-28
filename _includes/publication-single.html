@@ -14,7 +14,7 @@
 
  <table>
  <tr>
- <td style="width: 300px"><img src="{{ post.image }}" width=250px style="border: 2px black; float:left; margin-right:15px; border-radius: 5px; border-style: none;"/></td>
+ <td style="width: 300px"><img src="{{ post.image }}" width=280px style="display: block; margin-left: auto; margin-right: auto;"/></td>
  <td>
  <div>
     <h2 style="margin-top: 10px; margin-bottom: 0px;">{{ title }}</h2>
@@ -30,7 +30,7 @@
     <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{{ authors }}</h3>
     {% if post.type contains "thesis" %}
       <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{% if post.type contains "phd" %}PhD{% else %}SM{% endif %} Thesis, {{ post.year }}</h3>
-      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">MIT Department of Mechanical Engineering</h3>
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">University of Michigan, Ann Arbor, Robotics Department</h3>
     {% else %}
       <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">
       {{ post.venue }}, {{ post.year }}
@@ -66,9 +66,13 @@
           <a style="text-decoration: none;" href="{{ post.links_to_website }}" target="_blank">Website <i class="fa fa-globe"></i></a>&nbsp;&nbsp;&nbsp;
         {% endif %}
         
-        <!-- Arxiv Paper -->
-        {% if post.arxiv != "" and post.arxiv != "N/A" %}
+        <!-- Paper -->
+        {% if post.official_link != "" and post.official_link != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.official_link }}" target="_blank">Paper <i class="fa fa-file"></i></a>&nbsp;&nbsp;&nbsp;
+        {% else %}
+          {% if post.arxiv != "" and post.arxiv != "N/A" %}
           <a style="text-decoration: none;" href="{{ post.arxiv }}" target="_blank">Paper <i class="fa fa-file"></i></a>&nbsp;&nbsp;&nbsp;
+          {% endif %}
         {% endif %}
         
         <!-- Code -->

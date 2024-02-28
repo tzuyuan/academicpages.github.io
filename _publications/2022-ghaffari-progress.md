@@ -18,7 +18,7 @@ school: "N/A"
 awards: ""
 notes: ""
 include_on_website: true
-image: "/assets/images/progress_on_symmetry.PNG"
+image: "/images/progress_on_symmetry.PNG"
 links_to_code: ""
 links_to_video: ""
 links_to_website: ""

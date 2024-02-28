@@ -1,26 +1,17 @@
 ---
 layout: archive
-title: "Publications"
+title: "Featured Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if author.googlescholar %}
+{% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
-
-This page shows selected journal articles and conference papers.
-For a complete list of my publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=1HY3TXcAAAAJ&hl=en&authuser=1) or see my [CV](/files/CV.pdf).
-
-{% include base_path %}
-
-{% assign show_preprints = false %}
+{% assign show_preprints = true %}
 {% if show_preprints %}
 Preprints
 ------
@@ -45,7 +36,7 @@ Journal Articles
   {% endif %}
 {% endfor %}
 
-Conference Papers
+Refereed Conference Papers
 ------
 {% for post in site.publications reversed %}
   {% if post.status == "conference"%}

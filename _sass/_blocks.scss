@@ -1,0 +1,30 @@
+/* ==========================================================================
+   feature blocks
+   ========================================================================== */
+
+/*
+   Custom Styling for feature blocks
+   ========================================================================== */
+
+   .feature-block {
+    @include container;
+    @include clearfix;
+
+    div {
+        text-align: center;
+        width: 31%;
+        height: 235px;
+        margin: 1%;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: mix(#fff, $gray, 50%);
+        font-size: 1em;
+        padding: 10px;
+        float: left;
+    }
+
+    p {
+        font-size: 0.6875em;
+    }
+}
