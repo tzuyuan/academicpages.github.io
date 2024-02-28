@@ -18,7 +18,7 @@ school: "N/A"
 awards: ""
 notes: ""
 include_on_website: true
-image: "/images/cvo_slam.png"
+image: "/images/cvo_slam.PNG"
 links_to_code: "https://github.com/bexilin/CVO-SLAM"
 links_to_video: ""
 links_to_website: ""

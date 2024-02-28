@@ -1,7 +1,7 @@
 ---
 title: "Adaptive Continuous Visual Odometry from RGB-D Images"
 authors: "Tzu-Yuan Lin, William Clark, Ryan M. Eustice, Jessy W. Grizzle, Anthony Bloch, and Maani Ghaffari"
-venue: ""
+venue: "arXiv"
 year: "2019"
 status: "preprint"
 arxiv: "https://arxiv.org/abs/1910.00713"
