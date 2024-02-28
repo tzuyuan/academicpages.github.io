@@ -84,10 +84,10 @@ author:
   avatar           : "me.jpg"
   bio              : "Robotics Ph.D. Candidate, University of Michigan, Ann Arbor."
   employer         :
-  location         : "Ann Arbor, MI, USA"
+  location         : "Ann Arbor, MI"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=1HY3TXcAAAAJ&hl=en&authuser=1"
-  email            :
+  email            : "tzuyuan@umich.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/tzuyuan/"
+  linkedin         : "tzuyuan"
   orcid            : #"https://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

@@ -13,6 +13,8 @@ My research interests lie in the intersection of <b>machine learning</b> and <b>
 
 Prior to my Ph.D. journey, I obtained my M.S. in [Robotics](https://robotics.umich.edu/) at the University of Michigan, where I did research on several visual odometry projects. Before that, I received my B.S. in [Mechanical Engineering](http://www.me.ntu.edu.tw/main.php?site_id=1) from National Taiwan University. 
 
+If you find any of my work interesting, feel free to reach out to me at tzuyuan at umich dot edu. I'm happy to chat!
+
 ## News
 * **[02/2024]** I gave a guest lecture in ROB 530: Mobile Robotics at the University of Michigan.
 * **[11/2023]** I passed my thesis proposal!
